@@ -1,0 +1,23 @@
+{
+  "locations": [
+    {
+      "city": "Seattle",
+      "temperature_c": 12,
+      "condition": "Drizzle",
+      "humidity": 78
+    },
+    {
+      "city": "Lisbon",
+      "temperature_c": 22,
+      "condition": "Clear",
+      "humidity": 55
+    },
+    {
+      "city": "Tokyo",
+      "temperature_c": 17,
+      "condition": "Cloudy",
+      "humidity": 63
+    }
+  ],
+  "updated": "2025-10-05T19:53:16.401803Z"
+}

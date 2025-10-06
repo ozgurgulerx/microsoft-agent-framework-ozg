@@ -1,0 +1,11 @@
+site_name: Agent Framework Quests
+site_description: Jupyter-first enablement curriculum for Microsoft Agent Framework
+theme:
+  name: mkdocs
+nav:
+  - Home: docs/index.md
+  - Why Notebooks: docs/why_notebooks.md
+  - Cheatsheet: docs/agent_framework_cheatsheet.md
+  - Cookbook Patterns: docs/cookbook_patterns_adapted.md
+  - Governance & Safety: docs/governance_safety.md
+  - Troubleshooting: docs/troubleshooting.md

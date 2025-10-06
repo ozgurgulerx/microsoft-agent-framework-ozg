@@ -1,0 +1,30 @@
+name: export-viz
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1'
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install tooling
+        run: |
+          python -m pip install --upgrade pip
+          pip install nbclient nbconvert
+      - name: Execute viz notebooks
+        run: |
+          jupyter nbconvert --to notebook --execute --inplace                 1-basics-gauntlet-notebooks/06_workflow_sequential.ipynb                 1-basics-gauntlet-notebooks/07_workflow_concurrent_fanin.ipynb                 2-quests-notebooks/quest_city_planner.ipynb
+      - name: Collect viz artifacts
+        run: |
+          mkdir -p artifacts
+          cp -R _runs/_viz artifacts/_viz
+      - uses: actions/upload-artifact@v4
+        with:
+          name: workflow-viz
+          path: artifacts

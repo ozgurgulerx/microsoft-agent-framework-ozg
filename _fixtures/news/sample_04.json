@@ -1,0 +1,15 @@
+{
+  "slug": "sample_04",
+  "title": "Tech Hub Opens Downtown",
+  "summary": "Regional accelerator launches new campus.",
+  "body": "The regional innovation accelerator opened a downtown campus offering co-working space, prototyping labs, and mentorship for early-stage founders.",
+  "opinionated": false,
+  "category": "technology",
+  "timestamp": "2024-05-05T08:00:00Z",
+  "citations": [
+    {
+      "source": "WireService-04",
+      "url": "https://news.example.com/articles/04"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  quests:
+    build:
+      context: ..
+      dockerfile: containers/Dockerfile
+    environment:
+      USE_REAL_CLIENT: 'false'
+      OTEL_EXPORTER_OTLP_ENDPOINT: http://otel-collector:4317
+    volumes:
+      - ../:/workspace
+    command: bash -lc "jupyter nbconvert --to html --execute 0-prologue-notebooks/00_hello_agent.ipynb"
+  otel-collector:
+    image: otel/opentelemetry-collector:latest
+    command: ["--config=/etc/otel/config.yaml"]
+    volumes:
+      - ./otel-config.yaml:/etc/otel/config.yaml:ro

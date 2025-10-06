@@ -1,0 +1,125 @@
+{
+  "title": "Prologue 10 Question Quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What flag keeps notebooks in mock mode?",
+      "options": [
+        "USE_FIXTURES",
+        "USE_REAL_CLIENT",
+        "ENABLE_MOCK_MODE",
+        "RUN_OFFLINE"
+      ],
+      "answer": "USE_REAL_CLIENT",
+      "explanation": "Keep it false to rely on fixtures."
+    },
+    {
+      "id": 2,
+      "question": "Where do notebooks store run artifacts?",
+      "options": [
+        "/tmp",
+        "_runs/",
+        "fixtures/outputs",
+        "artifacts/"
+      ],
+      "answer": "_runs/",
+      "explanation": "Each lab writes to its own folder under _runs/."
+    },
+    {
+      "id": 3,
+      "question": "Which folder holds sample datasets?",
+      "options": [
+        "datasets",
+        "fixtures",
+        "_fixtures",
+        "data"
+      ],
+      "answer": "_fixtures",
+      "explanation": "Offline fixtures are located in _fixtures/."
+    },
+    {
+      "id": 4,
+      "question": "What command renders documentation?",
+      "options": [
+        "mkdocs build",
+        "npm start",
+        "make docs",
+        "cargo doc"
+      ],
+      "answer": "mkdocs build",
+      "explanation": "MkDocs builds the static site."
+    },
+    {
+      "id": 5,
+      "question": "Which utility captures stream output?",
+      "options": [
+        "backoff",
+        "tee_stream",
+        "dag_export",
+        "redact_middleware"
+      ],
+      "answer": "tee_stream",
+      "explanation": "The tee helper writes to stdout and file."
+    },
+    {
+      "id": 6,
+      "question": "What environment var hosts telemetry endpoint?",
+      "options": [
+        "OTEL_EXPORTER_OTLP_ENDPOINT",
+        "OTEL_ENDPOINT",
+        "TRACE_URL",
+        "METRICS_URL"
+      ],
+      "answer": "OTEL_EXPORTER_OTLP_ENDPOINT",
+      "explanation": "Set this for OTEL exporters."
+    },
+    {
+      "id": 7,
+      "question": "Which folder contains course slides?",
+      "options": [
+        "slides",
+        "course/slides",
+        "docs",
+        "notebooks"
+      ],
+      "answer": "course/slides",
+      "explanation": "Slides are stored under course/slides."
+    },
+    {
+      "id": 8,
+      "question": "How do you deploy docs to Pages?",
+      "options": [
+        "push to gh-pages branch",
+        "run mkdocs gh-deploy",
+        "open a PR",
+        "trigger jekyll"
+      ],
+      "answer": "run mkdocs gh-deploy",
+      "explanation": "The workflow runs mkdocs gh-deploy."
+    },
+    {
+      "id": 9,
+      "question": "Which command executes notebooks for viz export?",
+      "options": [
+        "pytest",
+        "jupyter nbconvert",
+        "papermill",
+        "pluto run"
+      ],
+      "answer": "jupyter nbconvert",
+      "explanation": "The workflow uses nbconvert to execute notebooks."
+    },
+    {
+      "id": 10,
+      "question": "Where is the launchpad notebook?",
+      "options": [
+        "Launcher.ipynb",
+        "index.ipynb",
+        "start.ipynb",
+        "intro.ipynb"
+      ],
+      "answer": "Launcher.ipynb",
+      "explanation": "Learners start with Launcher.ipynb."
+    }
+  ]
+}

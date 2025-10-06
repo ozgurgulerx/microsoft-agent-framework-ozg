@@ -1,0 +1,15 @@
+{
+  "slug": "sample_07",
+  "title": "Opinion: Reimagine Downtown Spaces",
+  "summary": "Designers call for pedestrian-first plans.",
+  "body": "Urban designers propose turning underused parking lots into mixed-use public plazas to re-energize downtown districts.",
+  "opinionated": true,
+  "category": "opinion",
+  "timestamp": "2024-05-08T08:00:00Z",
+  "citations": [
+    {
+      "source": "WireService-07",
+      "url": "https://news.example.com/articles/07"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+name,category,latitude,longitude,kid_friendly,rainy_day
+Science Discovery Center,museum,47.6205,-122.3493,yes,yes
+Riverside Park,park,47.6038,-122.3301,yes,no
+Artisan Food Hall,food,47.6097,-122.3331,no,yes
+Skyline Observatory,viewpoint,47.6200,-122.3490,no,no
+Makerspace Collective,creative,47.6150,-122.3400,yes,yes
+Harbor Ferry Pier,transport,47.6050,-122.3375,yes,no

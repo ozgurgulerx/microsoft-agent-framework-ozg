@@ -1,0 +1,39 @@
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Notebook artifacts
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Editor settings
+.vscode/
+.idea/
+
+# Runtime outputs
+_runs/*
+!_runs/.gitkeep
+
+# Containers & compose
+*.tar
+*.log

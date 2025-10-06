@@ -1,0 +1,15 @@
+{
+  "slug": "sample_05",
+  "title": "River Cleanup Nets 2 Tons of Trash",
+  "summary": "Volunteers make progress on river restoration.",
+  "body": "More than 300 volunteers collected debris along 15 miles of riverbank, removing plastics, tires, and abandoned fishing gear.",
+  "opinionated": false,
+  "category": "environment",
+  "timestamp": "2024-05-06T08:00:00Z",
+  "citations": [
+    {
+      "source": "WireService-05",
+      "url": "https://news.example.com/articles/05"
+    }
+  ]
+}

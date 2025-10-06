@@ -1,0 +1,15 @@
+{
+  "slug": "sample_06",
+  "title": "Healthcare Startup Raises Series B",
+  "summary": "Funding will expand remote patient monitoring.",
+  "body": "The company plans to roll out remote patient monitoring kits to rural clinics following a $45M Series B funding round.",
+  "opinionated": false,
+  "category": "business",
+  "timestamp": "2024-05-07T08:00:00Z",
+  "citations": [
+    {
+      "source": "WireService-06",
+      "url": "https://news.example.com/articles/06"
+    }
+  ]
+}

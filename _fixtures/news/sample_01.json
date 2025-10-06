@@ -1,0 +1,15 @@
+{
+  "slug": "sample_01",
+  "title": "City Council Passes Green Transit Plan",
+  "summary": "Expanded bike lanes and electric buses approved.",
+  "body": "In a unanimous vote, the city council approved funding for a comprehensive green transit plan including new electric buses, expanded bike lanes, and smart traffic lights.",
+  "opinionated": false,
+  "category": "civics",
+  "timestamp": "2024-05-02T08:00:00Z",
+  "citations": [
+    {
+      "source": "WireService-01",
+      "url": "https://news.example.com/articles/01"
+    }
+  ]
+}

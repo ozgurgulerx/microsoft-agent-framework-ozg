@@ -1,0 +1,15 @@
+{
+  "slug": "sample_03",
+  "title": "Opinion: Schools Need AI Literacy",
+  "summary": "Why AI lessons belong in classrooms.",
+  "body": "Educators argue that integrating AI literacy into the curriculum is essential to prepare students for the future of work and civic life.",
+  "opinionated": true,
+  "category": "opinion",
+  "timestamp": "2024-05-04T08:00:00Z",
+  "citations": [
+    {
+      "source": "WireService-03",
+      "url": "https://news.example.com/articles/03"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "lab_id": "quest_newsroom_editor",
+  "criteria": [
+    {
+      "id": "length",
+      "description": "Briefs between 120 and 180 words."
+    },
+    {
+      "id": "citations",
+      "description": "Each brief references at least two citations."
+    },
+    {
+      "id": "opinion",
+      "description": "Opinionated articles require approval step."
+    }
+  ]
+}

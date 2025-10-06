@@ -1,0 +1,11 @@
+txn_id,date,amount,description,channel
+T1001,2024-05-01,-42.50,Coffee subscription,card
+T1002,2024-05-02,-120.00,Gym membership,card
+T1003,2024-05-03,-65.25,Utilities bill,ach
+T1004,2024-05-04,2500.00,Paycheck,ach
+T1005,2024-05-05,-89.99,Groceries,debit
+T1006,2024-05-05,-18.75,Streaming service,card
+T1007,2024-05-06,-300.00,Rent adjustment,ach
+T1008,2024-05-07,-55.00,Dining out,card
+T1009,2024-05-08,-15.00,Transit pass,card
+T1010,2024-05-09,-120.00,Flights deposit,card

@@ -1,0 +1,13 @@
+{
+  "lab_id": "quest_flight_deal_scout",
+  "criteria": [
+    {
+      "id": "top3",
+      "description": "Outputs are ranked top three offers."
+    },
+    {
+      "id": "evidence",
+      "description": "Each offer contains supporting evidence."
+    }
+  ]
+}

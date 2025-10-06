@@ -1,0 +1,15 @@
+{
+  "slug": "sample_08",
+  "title": "Farmers Embrace Drought Tech",
+  "summary": "Sensors and analytics help conserve water.",
+  "body": "Growers are adopting soil moisture sensors and analytics platforms to cut water usage without reducing crop yields.",
+  "opinionated": false,
+  "category": "agriculture",
+  "timestamp": "2024-05-09T08:00:00Z",
+  "citations": [
+    {
+      "source": "WireService-08",
+      "url": "https://news.example.com/articles/08"
+    }
+  ]
+}

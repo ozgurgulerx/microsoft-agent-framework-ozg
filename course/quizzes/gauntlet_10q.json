@@ -1,0 +1,125 @@
+{
+  "title": "Basics Gauntlet 10 Question Quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which lab introduces streaming?",
+      "options": [
+        "00_hello_agent",
+        "01_streaming_basics",
+        "02_tools_fncalling",
+        "03_structured_output"
+      ],
+      "answer": "01_streaming_basics",
+      "explanation": "Lab 01 is all about streaming."
+    },
+    {
+      "id": 2,
+      "question": "What does `02_tools_fncalling` simulate?",
+      "options": [
+        "Structured outputs",
+        "Tool call logs",
+        "Checkpointing",
+        "Approvals"
+      ],
+      "answer": "Tool call logs",
+      "explanation": "It fakes logs for add and weather tools."
+    },
+    {
+      "id": 3,
+      "question": "Which lab writes `_runs/state.json`?",
+      "options": [
+        "03_structured_output",
+        "04_threads_memory",
+        "05_middleware_redaction_retry",
+        "06_workflow_sequential"
+      ],
+      "answer": "04_threads_memory",
+      "explanation": "Threads & memory loads the prior context."
+    },
+    {
+      "id": 4,
+      "question": "Which helper applies redaction?",
+      "options": [
+        "tee_stream.py",
+        "redact_middleware.py",
+        "backoff.py",
+        "dag_export.py"
+      ],
+      "answer": "redact_middleware.py",
+      "explanation": "It masks email addresses."
+    },
+    {
+      "id": 5,
+      "question": "Where are Mermaid diagrams stored?",
+      "options": [
+        "docs/viz",
+        "_runs/_viz",
+        "viz/",
+        "tmp/viz"
+      ],
+      "answer": "_runs/_viz",
+      "explanation": "Graphs export into the viz folder."
+    },
+    {
+      "id": 6,
+      "question": "Which lab covers nested workflows?",
+      "options": [
+        "10_checkpoint_resume",
+        "11_workflow_nesting",
+        "12_workflow_request_response",
+        "09_hitl_approvals_mock"
+      ],
+      "answer": "11_workflow_nesting",
+      "explanation": "Nested workflows appear in lab 11."
+    },
+    {
+      "id": 7,
+      "question": "What metadata field marks a pause during HITL?",
+      "options": [
+        "status",
+        "pause",
+        "mode",
+        "gate"
+      ],
+      "answer": "pause",
+      "explanation": "The lab toggles a pause flag in the request."
+    },
+    {
+      "id": 8,
+      "question": "Which lab merges summaries and keywords?",
+      "options": [
+        "07_workflow_concurrent_fanin",
+        "08_workflow_conditional_routing",
+        "09_hitl_approvals_mock",
+        "10_checkpoint_resume"
+      ],
+      "answer": "07_workflow_concurrent_fanin",
+      "explanation": "Fan-in merges summarise + keywords."
+    },
+    {
+      "id": 9,
+      "question": "What does the backoff helper return?",
+      "options": [
+        "Only result",
+        "Result and history",
+        "Only history",
+        "A coroutine"
+      ],
+      "answer": "Result and history",
+      "explanation": "It returns both outcome and attempt list."
+    },
+    {
+      "id": 10,
+      "question": "Where do approval fixtures live?",
+      "options": [
+        "_fixtures/approvals.json",
+        "docs/approvals.md",
+        "_runs/approvals.json",
+        "course/approvals.json"
+      ],
+      "answer": "_fixtures/approvals.json",
+      "explanation": "Mock approvals are stored there."
+    }
+  ]
+}

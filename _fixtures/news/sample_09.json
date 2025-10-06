@@ -1,0 +1,15 @@
+{
+  "slug": "sample_09",
+  "title": "Museum Curates Immersive Exhibit",
+  "summary": "Interactive history experience debuts.",
+  "body": "The city museum unveiled an immersive exhibit combining archival footage with holographic storytellers to highlight untold community narratives.",
+  "opinionated": false,
+  "category": "culture",
+  "timestamp": "2024-05-10T08:00:00Z",
+  "citations": [
+    {
+      "source": "WireService-09",
+      "url": "https://news.example.com/articles/09"
+    }
+  ]
+}

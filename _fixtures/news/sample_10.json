@@ -1,0 +1,15 @@
+{
+  "slug": "sample_10",
+  "title": "Opinion: Transit Fares Should Drop",
+  "summary": "Free fares could boost ridership.",
+  "body": "Transportation advocates lay out a model for funding free city transit through congestion pricing and employer partnerships.",
+  "opinionated": true,
+  "category": "opinion",
+  "timestamp": "2024-05-11T08:00:00Z",
+  "citations": [
+    {
+      "source": "WireService-10",
+      "url": "https://news.example.com/articles/10"
+    }
+  ]
+}

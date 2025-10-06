@@ -1,0 +1,15 @@
+{
+  "slug": "sample_02",
+  "title": "Local Bakery Wins National Award",
+  "summary": "Family bakery recognised for innovation.",
+  "body": "A fourth-generation family bakery took home the national innovation award for its solar-powered ovens and zero-waste packaging initiative.",
+  "opinionated": false,
+  "category": "business",
+  "timestamp": "2024-05-03T08:00:00Z",
+  "citations": [
+    {
+      "source": "WireService-02",
+      "url": "https://news.example.com/articles/02"
+    }
+  ]
+}
